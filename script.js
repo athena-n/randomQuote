@@ -43,6 +43,7 @@ fetch(
           alert("Quote copied to clipboard!");
         })
         .catch((err) => {
+          console.log("Error")
           console.error("Failed to copy text: ", err);
         });
     });
